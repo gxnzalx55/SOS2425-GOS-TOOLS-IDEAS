@@ -1,0 +1,21 @@
+{
+  "name": "sos2425-gos-tools-ideas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxnzalx55/SOS2425-GOS-TOOLS-IDEAS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxnzalx55/SOS2425-GOS-TOOLS-IDEAS/issues"
+  },
+  "homepage": "https://github.com/gxnzalx55/SOS2425-GOS-TOOLS-IDEAS#readme"
+}
