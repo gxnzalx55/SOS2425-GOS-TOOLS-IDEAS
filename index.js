@@ -3,7 +3,7 @@ const cool = require("cool-ascii-faces");
 const app = express();
 const PORT = process.env.PORT || 16078;
 
-app.use("/",express.static(__dirname));
+app.use(express.static("public"));
 
 app.get("/hello", (req, res)=>{
     res.send("Welcome to the server!")});
