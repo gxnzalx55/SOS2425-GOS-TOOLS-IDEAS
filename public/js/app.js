@@ -1,7 +1,5 @@
-// Asegurarnos de que React y ReactDOM están disponibles
 const { useState } = React;
 
-// Componente Calculadora
 function Calculator() {
     const [display, setDisplay] = useState("");
 
@@ -36,5 +34,4 @@ function Calculator() {
     );
 }
 
-// Renderizar el componente en el div con id 'app'
 ReactDOM.createRoot(document.getElementById("app")).render(<Calculator />);
